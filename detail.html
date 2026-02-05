@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>课程详情</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <nav class="back-nav">
+            <a href="index.html">← 返回课程列表</a>
+        </nav>
+
+        <h1 id="d-title" style="margin-bottom: 20px;">加载中...</h1>
+
+        <div class="video-box">
+            <video id="d-video" controls>
+                您的浏览器不支持视频播放。
+            </video>
+        </div>
+
+        <div class="resource-row">
+            <a id="btn-code" href="#" class="res-btn" download>
+                <h3>💻 下载源代码</h3>
+                <p>获取 .mblock / .zip 文件</p>
+            </a>
+            <a id="btn-ppt" href="#" class="res-btn" download>
+                <h3>📖 下载课件</h3>
+                <p>获取课堂演示 PPT</p>
+            </a>
+        </div>
+
+        <div class="teacher-note">
+            <strong>👩‍🏫 老师寄语：</strong>
+            <span id="d-note">...</span>
+        </div>
+    </div>
+
+    <script src="js/data.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
